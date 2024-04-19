@@ -173,4 +173,4 @@ if __name__ == "__main__":
 
         score += calc_intersection_over_union(audio_peaks, video_peaks, fps)
 
-    print('AV-Align: ', score/len(files))
+    print('AV-Align: ', score/6)#score/len(files)
